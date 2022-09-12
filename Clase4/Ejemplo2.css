@@ -1,0 +1,43 @@
+h2{
+    color: blue;/*color subtitulo*/
+}
+h1{
+    color: red;/*color titulo*/
+    background-color: yellow;
+    text-align: center;
+    font-family: Arial;
+}
+p{
+    color: green;
+}
+.Destacados{
+    color: orange;
+    font-size: 22px;
+    font-style: italic;
+    font-weight:bold ;
+
+}
+#rojo{
+    width: 300px;
+    height: 400px;
+    background-color: lightcoral;
+    text-align: center;
+    margin-left: 50px;/*margen externo*/
+    margin-bottom: 50px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+#celeste{
+    width: 300px;
+    height: 400px;
+    background-color: lightblue;
+    padding: 20px;/*margen interno*/
+    box-sizing: border-box;/*para que respete el tamaño de la caja de 300 sio con padding le agrega 20*/
+    border-right: 5px dashed red;
+}
+
+/* comentario de css*/
+/*regla de css
+h2> tipo de selector: etiqueta
+y adentro van las distintas propiedades con sus valores
+*/
