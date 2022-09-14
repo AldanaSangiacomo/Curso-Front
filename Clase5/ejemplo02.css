@@ -1,0 +1,13 @@
+/*font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;*/
+h2{
+    color: red;
+    font-family: 'Lora', serif;
+}
+h1{
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
