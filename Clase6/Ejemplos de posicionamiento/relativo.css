@@ -1,0 +1,32 @@
+.contenedor{
+    background-color: rgb(169,174,178);
+    width: 60%;
+    margin: 0 auto; /* arriba y abajo son iguales y auto se refiere a derecha e izquierda*/
+    height: 500px;
+  
+}
+.verde{
+    background-color: lightgreen;
+    width: 90%;
+    margin: 0 auto 20px; /* arriba - laterales - abajo*/
+    height: 150px;
+    position: relative;
+    top:50px;
+    left:50px;
+    /*posicionamiento relativo:es el procedimiento que se mueve en base a donde se ubica ese elemento */;
+     
+}
+.celeste{
+    background-color: lightblue;
+    width: 90%;
+    margin: 0 auto 20px; /* arriba - laterales - abajo*/
+    height: 150px;
+   
+}
+.amarillo{
+    background-color: yellow;
+    width: 90%;
+    margin: 0 auto 20px; /* arriba - laterales - abajo*/
+    height: 150px;
+   
+}
