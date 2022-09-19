@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
      /*posicionamiento absoluto se mide con respecto a un elemento que tenga posicionamiento relativo.
-     por consiguiente el elemtno con posicionamiento relativo por nacimiento es la etiqueta <body>*/
+     por consiguiente el elemento con posicionamiento relativo por nacimiento es la etiqueta <body>*/
 }
 .celeste{
     background-color: lightblue;
