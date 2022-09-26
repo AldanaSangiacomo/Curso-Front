@@ -202,10 +202,39 @@ font-size: 13px;
 }
 .formulario p label{
     min-width: 80px;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
 }
 .formulario p input,
-.formualrio p textarea{
-background-color: orange;
+.formulario p textarea{
+background-color:#ddd;
 width: 100%;
+border-radius: 5px;
+border: 1px solid #999;
+font-size: 14px;
+padding: 6px;
+}
+.formulario textarea{
+    resize: none; /*para agrandar y achicar el text area*/
+    height: 150px;
+}
+.formulario p:nth-child(4){
+    align-items: start
+}
+.formulario input[type= "submit"]{
+background-color: #6da9ed;
+box-shadow:0 0 10px grey ;
+width: auto;
+color: white;
+font-size: 16px;
+/*para mover el boton 2 opciones, no el display flex porque no tengo contenedor tendria que ponerlo en el .fomulario p*/
+margin-left: 80px;
+/* position: relative;
+left: 80px; */
+transition: all 0.2 ease;
+cursor: pointer;
+}
+.formulario input[type= "submit"]:hover{
+    background-color: #2e64a1;
 }
