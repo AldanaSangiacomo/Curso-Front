@@ -33,8 +33,9 @@ aside {
 }
 
 nav ul li {
-    list-style: none;
+    list-style: none; /* para sacar el punto*/
     padding: 10px;
+    
 }
 
 nav ul li a {
@@ -56,18 +57,40 @@ footer {
     header {
         text-align: center;
     }
-    .holder{
+
+    .holder {
         flex-wrap: wrap;
+       
     }
-    nav{
+
+    nav {
         width: 100%;
+
     }
-    main{
+
+    main {
         width: 100%;
         padding: 8px;
+        border-top: solid black;
     }
-    aside{
+
+    aside {
         width: 100%;
         padding: 8px;
+        border-top: solid black;
+        border-bottom: solid black;
     }
+
+    nav ul li {
+        display: inline-flex;
+        padding: 0;
+       
+        
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
 }
