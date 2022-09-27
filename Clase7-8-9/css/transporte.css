@@ -193,14 +193,21 @@ h2 {
 
 .contacto section {
     width: 100%;
+  
+}
+.datos{
+    border-left:1px solid #ccc;
+    padding-left: 10px;
 }
 
 .datos p {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .datos ul li {
-    font-size: 13px;
+    font-size: 12px;
+    padding: 3px;
+   
 }
 
 .formulario p {
@@ -211,7 +218,7 @@ h2 {
     min-width: 80px;
     display: flex;
     align-items: center;
-    /* background-color: yellow; */
+   
 }
 
 .formulario p input,
@@ -222,6 +229,8 @@ h2 {
     border: 1px solid #999;
     font-size: 14px;
     padding: 6px;
+
+   
 }
 
 .formulario textarea {
@@ -231,17 +240,17 @@ h2 {
 }
 
 .formulario p:nth-child(4) {
-    align-items: start
+    align-items: start;
 }
 
 .formulario input[type="submit"] {
     background-color: #6da9ed;
-    box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 5px grey;
     width: auto;
     color: white;
     font-size: 16px;
     /*para mover el boton 2 opciones, no el display flex porque no tengo contenedor tendria que ponerlo en el .fomulario p*/
-    margin-left: 80px;
+    margin-left: 400px;
     /* position: relative;
 left: 80px; */
     transition: all 0.2 ease;
@@ -252,19 +261,28 @@ left: 80px; */
     background-color: #2e64a1;
 }
 
-.galeria img {
-    border: 3px solid brown;
-    max-width: 18%;
-    margin: 3px;
-}
 
 .galeria {
     display: inline-flex;
-    justify-content: space-around;
-    padding: 40px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* max-width: 80%; */
+    gap: 20px;
+ 
+}
 
+.gris img {
+    border: 2px solid #ccc;
+    padding: 2px;
+    width: 100px;
+}
 
+.rojo img {
+    border: 2px solid brown;
+    padding: 2px;
+    width: 100px;
+}
 
-
+.celeste img {
+    border: 4px solid lightskyblue;
+    width: 100px;
 }
