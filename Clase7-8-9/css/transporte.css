@@ -57,7 +57,7 @@ nav ul li a.activo {
 footer {
     background-color: #ccc;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     /*arriba abajo laterales*/
     margin-top: 20px;
 }
@@ -266,9 +266,11 @@ left: 80px; */
 .galeria1 img{
     justify-content: space-evenly;
     padding: 3px;
-    max-width: 15%;
+    max-width: 18%;
     display: inline-flex;
     border: 1px solid #ccc;
+    margin: 6px;
+    box-sizing: border-box;
 }
 #celeste{
     border: 5px solid lightblue;
