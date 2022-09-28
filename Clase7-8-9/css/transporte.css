@@ -229,9 +229,7 @@ h2 {
     border-radius: 5px;
     border: 1px solid #999;
     font-size: 14px;
-    padding: 6px;
-
-   
+    padding: 6px; 
 }
 
 .formulario textarea {
@@ -262,9 +260,9 @@ left: 80px; */
     background-color: #2e64a1;
 }
 
-.galeria2 img,
-.galeria1 img{
-    justify-content: space-evenly;
+
+.galeria img{
+    justify-content: space-between;
     padding: 3px;
     max-width: 18%;
     display: inline-flex;
