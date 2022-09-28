@@ -65,12 +65,15 @@ footer {
 .holder {
     max-width: 960px;
     margin: 0 auto;
-
 }
 
 h2 {
     color: #2e64a1;
     font-weight: 400;
+}
+
+.homeimg img {
+    max-width: 100%;
 }
 
 .bienvenidos {
@@ -193,10 +196,11 @@ h2 {
 
 .contacto section {
     width: 100%;
-  
+
 }
-.datos{
-    border-left:1px solid #ccc;
+
+.datos {
+    border-left: 1px solid #ccc;
     padding-left: 10px;
 }
 
@@ -207,19 +211,18 @@ h2 {
 .datos ul li {
     font-size: 12px;
     padding: 3px;
-   
+
 }
 
-/* .formulario p {
+.formulario p {
     display: flex;
-} */
+}
 
 .formulario p label {
     min-width: 80px;
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
-   
+
 }
 
 .formulario p input,
@@ -231,7 +234,7 @@ h2 {
     font-size: 14px;
     padding: 6px;
 
-   
+
 }
 
 .formulario textarea {
@@ -268,7 +271,7 @@ left: 80px; */
     justify-content: space-evenly;
     /* max-width: 80%; */
     gap: 20px;
- 
+
 }
 
 .gris img {
@@ -286,4 +289,53 @@ left: 80px; */
 .celeste img {
     border: 4px solid lightskyblue;
     width: 100px;
+}
+
+@media screen and (max-width:550px) {
+    .columnas {
+        flex-direction: column;
+    }
+
+    .bienvenidos,
+    .testimonios {
+        width: 100%;
+    }
+
+    /*para eliminar testimonio
+    .testimonios{
+        display: none;
+    }*/
+    .holder {
+        padding-left: 16px;
+        padding-right: 16px;
+        
+    }
+    /* main punto pegado porque hay varios que tienen clase holder
+    main.holder {
+        padding-left: 16px;
+        padding-right: 16px;
+        
+    } */
+
+.personas{
+    flex-wrap: wrap;
+}
+.persona{
+    width: 47%;
+    margin-bottom: 10px;
+}
+.servicio, /* para que toque los impares*/
+.servicio:nth-child(even){ 
+    flex-direction: column;
+}
+.servicio img{
+width: 100%;
+max-width: 100%;
+}
+.contacto{
+    flex-direction: column;
+ 
+}
+
+
 }
