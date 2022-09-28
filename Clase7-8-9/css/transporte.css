@@ -262,4 +262,18 @@ left: 80px; */
     background-color: #2e64a1;
 }
 
-
+.galeria2 img,
+.galeria1 img{
+    justify-content: space-evenly;
+    padding: 3px;
+    max-width: 15%;
+    display: inline-flex;
+    border: 1px solid #ccc;
+}
+#celeste{
+    border: 5px solid lightblue;
+    padding: 0;
+}
+#rojo{
+    border: 1px solid brown;
+}
