@@ -263,27 +263,3 @@ left: 80px; */
 }
 
 
-.galeria {
-    display: inline-flex;
-    justify-content: space-evenly;
-    /* max-width: 80%; */
-    gap: 20px;
- 
-}
-
-.gris img {
-    border: 2px solid #ccc;
-    padding: 2px;
-    width: 100px;
-}
-
-.rojo img {
-    border: 2px solid brown;
-    padding: 2px;
-    width: 100px;
-}
-
-.celeste img {
-    border: 4px solid lightskyblue;
-    width: 100px;
-}
