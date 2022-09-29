@@ -193,10 +193,11 @@ h2 {
 
 .contacto section {
     width: 100%;
-  
+
 }
-.datos{
-    border-left:1px solid #ccc;
+
+.datos {
+    border-left: 1px solid #ccc;
     padding-left: 10px;
 }
 
@@ -207,7 +208,7 @@ h2 {
 .datos ul li {
     font-size: 12px;
     padding: 3px;
-   
+
 }
 
 /* .formulario p {
@@ -219,7 +220,7 @@ h2 {
     display: flex;
     align-items: center;
     padding-bottom: 10px;
-   
+
 }
 
 .formulario p input,
@@ -229,7 +230,7 @@ h2 {
     border-radius: 5px;
     border: 1px solid #999;
     font-size: 14px;
-    padding: 6px; 
+    padding: 6px;
 }
 
 .formulario textarea {
@@ -260,19 +261,27 @@ left: 80px; */
     background-color: #2e64a1;
 }
 
-.galeria img{
-    padding: 3px;
+.galeria {
+   
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+.galeria img {
+    padding: 4px;
     max-width: 18%;
     border: 1px solid #ccc;
-    margin: 6px;
     box-sizing: border-box;
-    display: inline-flex;
-    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-bottom: 7px;
 }
-#celeste{
+
+#celeste {
     border: 5px solid lightblue;
     padding: 0;
 }
-#rojo{
+
+#rojo {
     border: 1px solid brown;
 }
