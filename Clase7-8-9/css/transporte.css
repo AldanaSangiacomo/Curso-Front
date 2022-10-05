@@ -262,9 +262,10 @@ left: 80px; */
 }
 
 .galeria {
-   
+
     justify-content: space-evenly;
     display: flex;
+
 
 }
 
@@ -275,13 +276,21 @@ left: 80px; */
     box-sizing: border-box;
     margin-left: 15px;
     margin-bottom: 7px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+   filter: grayscale(100%);
+  
 }
 
 #celeste {
     border: 5px solid lightblue;
     padding: 0;
+
 }
 
-#rojo {
+.galeria img.rojo{
     border: 1px solid brown;
 }
