@@ -19,10 +19,10 @@ function parrafosCaja1() {
     alert(`Hay ${num} elementos <p> dentro de este documento`);
 }
 
-//parrafosCaja1()
+parrafosCaja1()
 
 function parrafosCaja2() {
-    const caja2parrafos = document.querySelectorAll(`#caja2 p`);
+    const caja2parrafos = document.querySelectorAll('#caja2 p');
     //console.log(caja2parrafos);
 
     const num = caja2parrafos.length;
