@@ -1,8 +1,8 @@
 const Header = (props) => {
     return (
         <header>
-            <p>hola soy el Header</p>
-            <p>Lorem ipsum dolonkdcndkcndkscnckd kcfkjfdskfjdskfj kdfjksdfjksdfj </p>
+            <h1>Ejemplos en REACT</h1>
+
         </header>
     )
 }
