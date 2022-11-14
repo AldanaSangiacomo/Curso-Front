@@ -1,0 +1,35 @@
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 16px;
+    /* background-color: yellow; */
+}
+
+.testimonios {
+    width: 25%;
+    /* background-color: lightcoral; */
+}
+
+.columnas {
+    display: flex
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+
+}

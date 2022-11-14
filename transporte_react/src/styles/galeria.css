@@ -1,0 +1,33 @@
+.galeria {
+
+    justify-content: space-evenly;
+    display: flex;
+
+
+}
+
+.galeria img {
+    padding: 4px;
+    max-width: 18%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-bottom: 7px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+   filter: grayscale(100%);
+  
+}
+
+#celeste {
+    border: 5px solid lightblue;
+    padding: 0;
+
+}
+
+.galeria img.rojo{
+    border: 1px solid brown;
+}
